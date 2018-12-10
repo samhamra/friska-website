@@ -9,6 +9,13 @@ body {
 img{
   height: 250px;
   width: 600px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+iframe {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .rotate90 {
@@ -81,6 +88,18 @@ img{
   position: relative;
   padding: 0 3em;
 }
+.band-container-custom {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  min-height: 40vh;
+  max-width: 960px;
+  display: table;
+  position: relative;
+  padding: 0 3em;
+}
+
+
 
 .band-inner {
   display: table-cell;
@@ -103,6 +122,13 @@ img{
 .band-d {
   background: #FF4E50;
 }
+.band-e {
+  background: #41f480;
+}
+.band-f {
+  background: #9400D3;
+}
+
 
 .nav {
   width: 180px;
@@ -161,7 +187,7 @@ img{
   width: 24px;
 }
 .menu.is-active .menu-hamburger {
-  background: none;
+  background: dark-grey;
 }
 .menu.is-active .menu-hamburger:before,
 .menu.is-active .menu-hamburger:after {
