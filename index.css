@@ -1,18 +1,35 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+p, h1 {
+  font-family: 'Raleway', sans-serif;
+}
 html,
 body {
+  
   margin: 0;
   padding: 0;
   background: #5d676c;
   font-family: 'Open Sans', sans-serif;
 }
-img{
+
+.link {
+  font-family: 'Lobster', Georgia, Times, serif;
+}
+.image{
   height: 250px;
   width: 600px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
+.ios {
+  height: 400px;
+  width: 250px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 iframe {
   padding-top: 15px;
   padding-bottom: 15px;
