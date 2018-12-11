@@ -15,6 +15,8 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+
+
 .link {
   font-family: 'Lobster', Georgia, Times, serif;
 }
@@ -88,6 +90,14 @@ iframe {
   color: #fff;
   font-size: 32px;
 }
+#black {
+  color: black;
+  
+}
+#big {
+  font-size: 24px;
+  color: black;
+}
 .band p {
   margin: 0;
   padding: 0;
@@ -144,6 +154,9 @@ iframe {
 }
 .band-f {
   background: #9400D3;
+}
+.band-g {
+  background: white;
 }
 
 
